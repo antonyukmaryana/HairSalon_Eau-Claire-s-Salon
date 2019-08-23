@@ -22,8 +22,27 @@ To run this program, you have to have IDE, ex VisualStudio (I used Rider(JetBrai
 1. Clone this repository.
 
 2. Open the command line--I use Terminal--type 'git clone' and repository link.
-At this point its a console program. In order to check its functionality you have to be in the directory of the program. 
-3. Use commands mcs program.name. cs; mono in the terminal.
+
+3.Open the App Settings file (appsettings.json) and ensure that the MySQL username and password match your MySQL credentials.
+
+4.Log onto MySQL:
+
+$ mysql -u USERNAME -p PASSWORD
+5.Set up a local database through MySQL:
+
+> CREATE DATABASE maryana_antonyuk;
+> USE maryana_antonyuk;
+> CREATE TABLE clients (ClientId serial PRIMARY KEY, StylistId INT, Name VARCHAR(45));
+> CREATE TABLE stylists (StylistId serial PRIMARY KEY, Name VARCHAR(45));
+
+6.Navigate to the production folder 
+
+7.Restore dependencies and run the application
+
+$ dotnet restore
+$ dotnet run
+8.On a Web browser (Chrome recommended), navigate to http://localhost:5000
+
 
 
 You will have access to all files. Enjoy!
