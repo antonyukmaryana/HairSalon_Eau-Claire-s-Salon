@@ -6,7 +6,7 @@ A C# MVC application for a hair salon.8/9/19. *By Maryana Antonyuk*
 
 **Description**
 
-MVC web application to help a hair salon owner manage h employees (stylists) and their clients. An owner should be able to add a list of stylists working at the salon, and for each stylist, add clients who see that stylist. The stylists have specific specialties, so each client can only see (belong to) a single stylist.
+MVC web application to help a hair salon owner manage employees (stylists) and their clients. An owner should be able to add a list of stylists working at the salon, and for each stylist, add clients who see that stylist. The stylists have specific specialties, so each client can only see (belong to) a single stylist.
 
 ![Screenshot](salon.png)
 
