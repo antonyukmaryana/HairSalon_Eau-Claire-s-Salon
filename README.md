@@ -41,6 +41,7 @@ $ mysql -u USERNAME -p PASSWORD
 
 $ dotnet restore
 $ dotnet run
+
 8.On a Web browser (Chrome recommended), navigate to http://localhost:5000
 
 
@@ -58,7 +59,7 @@ C#
 **Support and contact details.**
 
 Email me amaryana@gmail.com with any questions, comments, or concerns.
-
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 **License**
 
 This software is licensed under the MIT license.
